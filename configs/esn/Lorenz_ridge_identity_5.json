@@ -1,0 +1,37 @@
+{
+    "embedding_parameters": null,
+    "spectral_radius": [
+        0.99,
+        0.99,
+        0.99,
+        0.99,
+        0.99
+    ],
+    "embedding": "identity",
+    "n_dim": null,
+    "regression_parameters": 0.01,
+    "input_scaling": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+    ],
+    "teacher_scaling": 0.5,
+    "n_internal_units": [
+        400,
+        400,
+        400,
+        400,
+        400
+    ],
+    "regression_method": "ridge",
+    "connectivity": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+    ],
+    "n_drop": 100
+}

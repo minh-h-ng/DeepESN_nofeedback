@@ -1,0 +1,36 @@
+{
+    "regression_method": "ridge",
+    "teacher_scaling": 0.3449854493779072,
+    "connectivity": [
+        0.35859351655674093,
+        0.3724342953966963
+    ],
+    "feedback_scaling": "feedback_scaling",
+    "external_scaling": "external_scaling",
+    "regression_parameters": 0.001,
+    "external_weights": "external_weights",
+    "input_shift": "input_shift",
+    "spectral_radius": [
+        1.3485421189956477,
+        0.874474555616151
+    ],
+    "external_shift": "external_shift",
+    "input_scaling": [
+        0.8904551425489601,
+        0.7377870895860268
+    ],
+    "noise_level": [
+        0.058259174574301666,
+        0.07047339092688064
+    ],
+    "n_drop": 100,
+    "embedding": "identity",
+    "n_internal_units": [
+        451,
+        123
+    ],
+    "direct_links": "direct_links",
+    "teacher_shift": "teacher_shift",
+    "embedding_parameters": null,
+    "n_dim": null
+}

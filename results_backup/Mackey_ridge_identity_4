@@ -1,0 +1,85 @@
+[2018-06-21 23:50:31,960] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-06-21 23:50:31,960] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-06-21 23:50:31,960] launcher  INFO    Worker distribution: 
+[2018-06-21 23:50:31,960] launcher  INFO       127.0.0.1:	7 + origin
+2018-06-21 23:50:32,399 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-06-21 23:50:32,400 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-06-21 23:50:32,400 root            INFO     Loading data (./data/Mackey)
+2018-06-21 23:50:32,436 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-06-21 23:50:32,437 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-06-21 23:50:32,438 root            INFO     Loading data (./data/Mackey)
+2018-06-21 23:50:32,442 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-06-21 23:50:32,442 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-06-21 23:50:32,443 root            INFO     Loading data (./data/Mackey)
+2018-06-21 23:50:32,536 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-06-21 23:50:32,536 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-06-21 23:50:32,537 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-06-21 23:50:32,537 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-06-21 23:50:32,537 root            INFO     Loading data (./data/Mackey)
+2018-06-21 23:50:32,537 root            INFO     Loading data (./data/Mackey)
+2018-06-21 23:50:32,546 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-06-21 23:50:32,547 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-06-21 23:50:32,547 root            INFO     Loading data (./data/Mackey)
+2018-06-21 23:50:32,601 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-06-21 23:50:32,602 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-06-21 23:50:32,602 root            INFO     Loading data (./data/Mackey)
+/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMin' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+2018-06-21 23:50:32,603 root            INFO     Initializing genetic algorithm
+2018-06-21 23:50:32,603 root            INFO     Initializing genetic algorithm
+2018-06-21 23:50:32,608 root            INFO     Running GA optimization
+2018-06-21 23:50:32,608 root            INFO     Running GA optimization
+2018-06-21 23:50:32,613 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-06-21 23:50:32,613 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-06-21 23:50:32,614 root            INFO     Loading data (./data/Mackey)
+2018-06-21 23:50:32,633 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-06-21 23:50:32,634 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-06-21 23:50:32,635 root            INFO     Loading data (./data/Mackey)
+2018-06-21 23:50:32,661 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-06-21 23:50:32,662 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-06-21 23:50:32,663 root            INFO     Loading data (./data/Mackey)
+gen	nevals	avg      	std      	min      	max     
+0  	50    	0.0435199	0.0466492	0.0143392	0.219135
+1  	12    	0.0175359	0.00233834	0.0143392	0.0249124
+2  	20    	0.0154013	0.0010241 	0.0143392	0.01863  
+3  	19    	0.0147285	0.000473474	0.0143392	0.0158348
+4  	23    	0.0144262	0.000127538	0.0143392	0.0146171
+5  	25    	0.0143389	8.21546e-05	0.0138632	0.0146171
+6  	23    	0.0143202	9.32657e-05	0.0138632	0.0143392
+7  	20    	0.0142863	0.000143347	0.0138632	0.0143392
+8  	21    	0.0142345	0.000197158	0.0138632	0.0143392
+9  	20    	0.014076 	0.000231533	0.0138632	0.0143392
+10 	22    	0.0139841	0.000305182	0.0138632	0.0157159
+11 	22    	0.013897 	0.000185203	0.0138632	0.0151232
+12 	25    	0.0138599	1.31402e-05	0.0138079	0.0138632
+13 	20    	0.0138332	5.89321e-05	0.0136679	0.0138632
+14 	19    	0.0138026	7.51687e-05	0.0136679	0.0138632
+15 	19    	0.013753 	7.70229e-05	0.0136679	0.0138632
+16 	21    	0.0137043	6.1425e-05 	0.0136679	0.0138079
+17 	17    	0.0136793	6.34055e-05	0.0136679	0.0141014
+18 	20    	0.0136679	0          	0.0136679	0.0136679
+19 	20    	0.0136679	0          	0.0136679	0.0136679
+20 	21    	0.0136511	4.53518e-05	0.0135283	0.0136679
+2018-06-22 00:18:17,233 root            INFO     Saving the best parameters
+2018-06-22 00:18:17,233 root            INFO     Saving the best parameters
+2018-06-22 00:18:17,234 root            INFO     Done
+2018-06-22 00:18:17,234 root            INFO     Done
+[2018-06-22 00:18:18,012] launcher  (127.0.0.1:43495) INFO    Root process is done.
+[2018-06-22 00:18:18,012] launcher  (127.0.0.1:43495) INFO    Finished cleaning spawned subprocesses.
+[2018-06-22 00:18:18,119] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-06-22 00:18:18,119] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-06-22 00:18:18,120] launcher  INFO    Worker distribution: 
+[2018-06-22 00:18:18,120] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.0141703  0.01414212 0.01573994 0.01642479 0.01626526 0.01883443
+ 0.01638635 0.01568382 0.01834574 0.01667833 0.01723397 0.01772034
+ 0.01513287 0.01846688 0.01419949 0.01480153 0.01327996 0.01616607
+ 0.01542903 0.01825791]
+Mean:
+0.01616795718647021
+Std:
+0.0015755603782402195
+[2018-06-22 00:19:27,039] launcher  (127.0.0.1:39703) INFO    Root process is done.
+[2018-06-22 00:19:27,040] launcher  (127.0.0.1:39703) INFO    Finished cleaning spawned subprocesses.

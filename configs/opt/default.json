@@ -1,0 +1,160 @@
+{
+  "optimization": {
+    "population_size": 50,
+    "n_generations": 20,
+    "n_offsprings": 30,
+    "mutpb": 0.2,
+    "cxpb": 0.5,
+    "mu": 0.0,
+    "sigma": null,
+    "n_eval": 5,
+    "parallel": true
+  },
+
+  "connectivity": {
+    "type": "lf",
+    "min": 0.25,
+    "max": 0.5,
+    "sigma": 0.025,
+    "val": 0.25
+  },
+
+  "n_drop": {
+    "type": "c",
+    "min": 100,
+    "max": 100,
+    "sigma": 1,
+    "val": 100
+  },
+
+  "n_internal_units": {
+    "type": "li",
+    "min": 100,
+    "max": 500,
+    "sigma": 5
+  },
+
+  "teacher_scaling": {
+    "type": "f",
+    "min": 0.1,
+    "max": 0.9,
+    "sigma": 0.08
+  },
+
+  "input_scaling": {
+    "type": "lf",
+    "min": 0.1,
+    "max": 0.9,
+    "sigma": 0.08
+  },
+
+  "spectral_radius": {
+    "type": "lf",
+    "min": 0.5,
+    "max": 1.4,
+    "sigma": 0.09
+  },
+
+  "embedding": "identity",
+
+  "n_dim": {
+    "type": "c",
+    "min": 3,
+    "max": 100,
+    "sigma": 10,
+    "val": 3
+  },
+
+  "n_dim_percent": {
+    "type": "f",
+    "min": 0.001,
+    "max": 1.0,
+    "sigma": 0.1
+  },
+
+  "kpcagamma": {
+    "type": "f",
+    "min": 0.001,
+    "max": 0.1,
+    "sigma": 0.01
+  },
+
+  "spcaalpha": {
+    "type": "f",
+    "min": 0.001,
+    "max": 1,
+    "sigma": 0.1
+  },
+
+  "regression_method": "ridge",
+
+  "regularization": {
+    "type": "f",
+    "min": 0.001,
+    "max": 1.0,
+    "sigma": 0.1
+  },
+
+  "l1_ratio": {
+    "type": "f",
+    "min": 0.001,
+    "max": 1.0,
+    "sigma": 0.1
+  },
+
+  "C": {
+    "type": "f",
+    "min": 0.001,
+    "max": 10.0,
+    "sigma": 1
+  },
+
+  "svrgamma": {
+    "type": "f",
+    "min": 0.001,
+    "max": 1.0,
+    "sigma": 0.1
+  },
+
+  "nu": {
+    "type": "f",
+    "min": 0.001,
+    "max": 1.0,
+    "sigma": 0.1
+  },
+
+  "epsilon": {
+    "type": "f",
+    "min": 0.001,
+    "max": 2.0,
+    "sigma": 0.1
+  },
+
+  "lambda_1": {
+    "type": "f",
+    "min": 0.001,
+    "max": 1.0,
+    "sigma": 0.1
+  },
+
+  "lambda_2": {
+    "type": "f",
+    "min": 0.001,
+    "max": 1.0,
+    "sigma": 0.1
+  },
+
+  "alpha_1": {
+    "type": "f",
+    "min": 0.001,
+    "max": 1.0,
+    "sigma": 0.1
+  },
+
+  "alpha_2": {
+    "type": "f",
+    "min": 0.001,
+    "max": 1.0,
+    "sigma": 0.1
+  }
+}

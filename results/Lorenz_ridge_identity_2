@@ -1,0 +1,15 @@
+[2018-06-22 16:50:54,174] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-06-22 16:50:54,175] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-06-22 16:50:54,175] launcher  INFO    Worker distribution: 
+[2018-06-22 16:50:54,175] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.0002397  0.0004222  0.00032381 0.00027625 0.00028518 0.00034248
+ 0.00027403 0.00029283 0.00020255 0.00041006 0.00026399 0.00033156
+ 0.00025546 0.00027909 0.00028589 0.00024007 0.00025172 0.00048648
+ 0.00040079 0.00033442]
+Mean:
+0.00030992772783127755
+Std:
+7.037113613345405e-05
+[2018-06-22 16:51:12,048] launcher  (127.0.0.1:37111) INFO    Root process is done.
+[2018-06-22 16:51:12,049] launcher  (127.0.0.1:37111) INFO    Finished cleaning spawned subprocesses.
